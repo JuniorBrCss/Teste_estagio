@@ -1,0 +1,13 @@
+# Exemplo de string
+string = ""Teste SP"
+
+# Variável para armazenar a string invertida
+string_invertida = ""
+
+# Loop que percorre a string do fim para o começo
+for i in range(len(string)-1, -1, -1):
+    # Adiciona cada caractere ao final da string_invertida
+    string_invertida += string[i]
+
+# Imprime a string invertida
+print(string_invertida)
